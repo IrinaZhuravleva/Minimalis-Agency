@@ -22,9 +22,20 @@
 		"oAP": "\/build\/build",
 		"oF": 0
 		},
+	"\/img\/2-layers.png": {
+		"ft": 32768,
+		"iS": 82456,
+		"oA": 2,
+		"oAP": "\/build\/img\/2-layers.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/armchair.png": {
 		"ft": 32768,
-		"iS": 40233,
+		"iS": 29082,
 		"oA": 2,
 		"oAP": "\/build\/img\/armchair.png",
 		"oF": 0,
@@ -33,9 +44,20 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/arrow-title.png": {
+		"ft": 32768,
+		"iS": 738,
+		"oA": 2,
+		"oAP": "\/build\/img\/arrow-title.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/baloons.png": {
 		"ft": 32768,
-		"iS": 186466,
+		"iS": 147980,
 		"oA": 2,
 		"oAP": "\/build\/img\/baloons.png",
 		"oF": 0,
@@ -46,7 +68,7 @@
 		},
 	"\/img\/bottle.png": {
 		"ft": 32768,
-		"iS": 37748,
+		"iS": 33752,
 		"oA": 2,
 		"oAP": "\/build\/img\/bottle.png",
 		"oF": 0,
@@ -55,22 +77,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/face.png": {
-		"ft": 32768,
-		"iS": 82456,
-		"oA": 2,
-		"oAP": "\/build\/img\/face.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/hamburger-menu.png": {
+	"\/img\/burger-menu.png": {
 		"ft": 32768,
 		"iS": 131,
 		"oA": 2,
-		"oAP": "\/build\/img\/hamburger-menu.png",
+		"oAP": "\/build\/img\/burger-menu.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -112,7 +123,7 @@
 		},
 	"\/img\/paint-middle.png": {
 		"ft": 32768,
-		"iS": 55699,
+		"iS": 52557,
 		"oA": 2,
 		"oAP": "\/build\/img\/paint-middle.png",
 		"oF": 0,
@@ -131,6 +142,71 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/source\/css\/components\/adaptive.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/css\/components\/adaptive.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/css\/components\/contacts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/css\/components\/contacts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/css\/components\/innovative-ideas.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/css\/components\/innovative-ideas.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/css\/components\/portfolio.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/css\/components\/portfolio.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/css\/components\/presentation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/css\/components\/presentation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/source\/css\/style.scss": {
 		"aP": 0,
@@ -172,7 +248,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-angryBaby",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 553716183
+	"lastBuiltDate": 554017142
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

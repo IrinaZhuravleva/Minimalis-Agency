@@ -1,0 +1,89 @@
+// contacts.scss
+
+.contacts {
+  margin-top: 330px;
+  position: relative;
+  h2 {
+  position: relative;
+}
+  .hidden-title {
+    transform: rotate(-90deg);
+    top: 256px;
+    left: -217px;
+  }
+  p {
+    /* Style for "Selection" */
+    width: 300px;
+    color: #898f9f;
+    font-family: $nuni;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  form {
+    margin-left: 145px;
+    margin-top: 60px;
+    position: relative;
+  }
+  &__image {
+  position: absolute;
+  // сделать футер и прижать к нему
+  top: 430px;
+  left: -452px;
+  z-index: -1;
+ }
+ &__wrapper {
+  display: flex;
+  justify-content: space-between;
+ }
+}
+
+.form-group__column {
+  width: 410px;
+  height: 235px;
+
+}
+
+.form-group {
+  padding-bottom: 40px;
+  position: relative;
+  &:after {
+    position: absolute;
+    content: "";
+    top: 40px;
+    left: 0px;
+    width: 404px;
+    height: 1px;
+    background-color: #4c4c4c;
+  }
+  &__text:after {
+    top: 176px;
+  }
+}
+
+.contacts__button {
+  background-color: #d22425;
+  color: #ffffff;
+  font-family: $nuni;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  padding: 15px 30px;
+  float: right;
+  cursor: pointer;
+  width: 146px;
+  height: 50px;
+}
+
+input, 
+textarea {
+  outline: none;
+  border: 0; 
+}
+
+textarea {
+  padding-top: 10px;
+  resize: none;
+}

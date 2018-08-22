@@ -1,0 +1,54 @@
+.portfolio {
+  margin-top: 350px;
+}
+
+.portfolio h2 {
+  position: relative;
+}
+
+.portfolio__wrapper {
+  display: flex;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 130px;
+  margin-left: 230px;
+}
+
+.portfolio__card {
+  width: 375px;
+  height: 260px;
+  padding-left: 30px;
+  overflow: hidden;
+  h3 {
+    color: #333333;
+    font-family: $play;
+    font-size: 36px;
+    font-weight: 400;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    width: 200px;
+    line-height: 40px;
+  }
+}
+
+.portfolio__button {
+  color: #d22425;
+ font-family: $nuni;
+ font-size: 17px;
+ font-weight: 700;
+ text-transform: uppercase;
+ margin-top: 45px;
+ margin-left: 230px;
+ a {
+  text-decoration: none;
+  color: #d22425;
+ }
+}
+
+.first-card {
+  /* Style for "Rectangle" */
+  width: 377px;
+  height: 262px;
+  border: 1px solid #ececec;
+  opacity: 0.8;
+}

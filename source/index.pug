@@ -1,94 +1,100 @@
+doctype html
 html
   head
     title Minimalist Agency
-//- <!DOCTYPE html>
-//- <html>
-//- 	<head>
-//- 	  <title></title>
-//- 	</head>
-//- 	<body>
-//- 		<header>
-//- 			<div class="main-nav">
-//- 				<div class="logo">
-//- 					<img src="img/logo-top.png" width="137" height="30" alt="Minimalist Agency">
-//- 				  <p>we create <span>DESIGNS</span> that make you proud</p>
-//- 			  </div>
-//- 			  <button class="roll-down"></button>
-			  
-//- 			</div>
-//- 		</header>
-		
-//- 		<section class="presentation">
-//- 			<div class="presentation-left slogan">
-//- 				<h2>We create product</h2>
-//- 				<div class="presentation-left slogan_small">
-//- 					what exactly you need
-//- 				</div>
-//- 				<div class="presentation-left description">
-//- 					<p>Fantastic Clean Website Designs for Inspiration. Selection of Awards winning clean websites or websites with and strong use of clean design. It is usually associated with ab concepts and emotions such as elegance.
-//- 					</p>
-//- 					<p>Selection of Awards winning clean websites or ant websites with a strong use of clean design. It is usually yeh associated with concepts and emotions such as the elegancei. Fantastic Clean Website Designs for Inspirations. Selection of Awards winning clean websites aud or websites with a strong use of clean design. It is usually associated with concepts and emotions such as elegance.
-//- 					</p>
-//- 				</div>
-//-       </div>
-//- 			<div class="presentation-right">
-//- 				<img src="img/baloons.png" width="426" height="520" alt="presentation">
-//- 			</div>
-//- 		</section>
-//- 		<section class="innovative-ideas">
-//- 			<div class="ideas-left">
-//- 				<h2>Innovative Ideas</h2>
-//- 				<div class="subtitle">Clean Website Designs for Inspiration. Select option only of Awards winning clean website or websites designs.</div>
-//- 				<div class="column-left">
-//- 					<p>antastic Clean Website Designs for Inspiratiion. Selection of Awards winning cleaein web sites or websites with and strong use of clean design. It is usually associated with ab concepts and emotions such as elegance.</p>
-//- 					<p>Selection of Awards winning clean websites or ant websites with a strong use of clean design. It is usually yeh associated with concepts and emotions such as the elegancei. Fantastic Clean Website Designs for Inspirations. Selection of Awards winning clean websites.</p>
-//- 					<p>It is usually associated with concepts and emoi tions such as elegance. Selectiilon of Awards winning clean websites or ant websites with a strong use of clean design.</p>
-//- 				</div>
-//-         <div class="column-right">
-//-         	<p>Clean Website Designs for Inspir ati on. Select edot ion of Awards winning cleaein web sites or weanbsites with and strong use of clean design. And emotions such as elegance.</p>
-//-         	<p>Selectiilon of Awards winning clean websites or ant wilebsites with a strong use of clean design. It is reusually yeh associated with concepts and Awards winning clean websites.</p>
-//-         	<p>Audio vidoe ilorud or websites with a strong use of clean design. It is usually associated with concepts and emoi tions such as elegance.</p>
-//-         </div>
-//-         <div>
-//-         	<button><a href="">Visit Blog</a>
-//-         	</button>
-//-         </div>
-//- 			</div>
-//- 			<div class="ideas-right">
-//- 				<img src="img/paint-middle.png" width="564" height="729" alt="logo-middle">
-//- 			</div>
-//- 		</section>
-//- 		<section>
-//- 			<div class="works">
-//- 				<h2>Recent Works</h2>
-//-         <div class="works-subtitle">Some Designs
-//-         </div>
-//-         <div class="images">
-//-         	<div class="image">
-//- 	        	<h2>Innovative Design</h2>
-//- 	        	<p>Selection of Award winning clean are de websites or andi websites with a strong use of clean design.</p>
-//- 	        </div>
-//- 	        <div class="image">
-//- 	        	<img src="img/bottle.png" width="375" height="260" alt="designer bottle">
-//- 	        </div>
-//-           <div class="image">
-//- 	        	<img src="img/face.png" width="375" height="260" alt="designer mask">
-//- 	        </div>
-//- 	        <div class="image">
-//- 	        	<img src="img/armchair.png" width="355" height="260" alt="designer armchair">
-//- 	        </div>
-//-         </div>
-//-         <div class="link">
-//-         	<a href="">visit portfolio</a>
-//-         </div>
-//-       </div>
-//-     </section>
-//-     <section class="contacts">
-    	
-    	
-//-     </section>
-	
-		
+    link(href='https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700,900|Playfair+Display' rel='stylesheet')
+    link(rel='stylesheet' href='css/style.css')
+  body
+    header
+      .main-nav
+        .logo
+          img(src="img/logo-top.png" width="137" height="30" alt="Minimalist Agency")
+        .slogan
+          p.create 
+            | we create
+          .designs DESIGNS |
+          p.that
+            | that make 
+            span you 
+            | proud
+        .menu
+          button
+            img(src="img/burger-menu.png" width="90%" alt="Minimalist Agency")
+      .arrow
+        img(src="img/arrow-title.png" width="50" height="50" alt="Arrow")
+    section.presentation
+      .presentation-left
+        h2 We create product
+          .hidden-title What we do?
+        .subtitle what exactly you need
+        .description
+          p Fantastic Clean Website Designs for Inspiration. Selection of Awards winning clean websites or websites with and strong use of clean design. It is usually associated with ab concepts and emotions such as elegance.
+          br
+          p Selection of Awards winning clean websites or ant websites with a strong use of clean design. It is usually yeh associated with concepts and emotions such as the elegancei. Fantastic Clean Website Designs for Inspirations. Selection of Awards winning clean websites aud or websites with a strong use of clean design. It is usually associated with concepts and&nbspemo- tions such as elegance.
+      .presentation-right
+        img(src="img/baloons.png" width="426" height="520" alt="presentation")
+    section.innovative-ideas.container
+      h2 Innovative Ideas
+        .hidden-title Innovative Thinking
+      .sub Clean Website Designs for Inspiration. Select option only of Awards winning clean website or websites designs.
+      .innovative-ideas__wrapper
+        .innovative-ideas__col
+          p.first-para Fantastic Clean Website Designs for Inspiratiion. Selection of Awards winning cleaein web sites or websites with and strong use of clean design. It is usually associated with ab concepts and emotions such as elegance.
+          br
+          p Selection of Awards winning clean websites or ant websites with a strong use of clean design. It is usually yeh associated with concepts and emotions such as the elegancei. Fantastic Clean Website Designs for Inspirations. Selection of Awards winning clean websites.
+          br
+          p It is usually associated with concepts and emoi tions such as elegance. Selectiilon of Awards winning clean websites or ant websites with a strong use of clean design.
+          .innovative-ideas__button
+            a(href="#") Visit Blog 
+        .innovative-ideas__col
+          p Clean Website Designs for Inspir ati on. Select edot ion of Awards winning cleaein web sites or weanbsites with and strong use of clean design. And emotions such as elegance.
+          br
+          p Selectiilon of Awards winning clean websites or ant wilebsites with a strong use of clean design. It is reusually yeh associated with concepts and Awards winning clean websites.
+          br
+          p Audio vidoe ilorud or websites with a strong use of clean design. It is usually associated with concepts and emoi tions such as elegance.
+        .innovative-ideas__image
+          //- h2 Great Design
+            //- p is innovative
+          img(src="img/4-layers.png" width="564" height="729" alt="logo-middle")
+    section.portfolio
+      h2.container Recent Works
+        .hidden-title Some Designs
+      .portfolio__wrapper
+        .portfolio__card.first-card
+          h3 Innovative Design
+          p Selection of Award winning clean are de websites or andi websites with a strong use of clean design.
+        .portfolio__card
+          img(src="img/bottle.png" width="375" height="260" alt="designer's bottle")
+        .portfolio__card
+          img(src="img/2-layers.png" width="375" height="260" alt="designer's mask")
+        .portfolio__card
+          img(src="img/armchair.png" width="355" height="260" alt="designer armchair")
+      .portfolio__button
+        a(href="#") visit portfolio
 
-//- </body>
-//- </html>
+    section.contacts.container
+      h2 Contact Us
+        .hidden-title Contact Us
+      p Selection of Award winning cleani are deyi web sites or andi are the websites with a strong use of clean design. It is reui sually. 
+      form(method='POST' action='#')
+        .contacts__wrapper
+          div.form-group__column
+            div.form-group
+              label(for='name')
+              input#name.form-control(type='text', placeholder='Full name' name='name')
+            div.form-group
+              label(for='email')
+              input#email.form-control(type='email', placeholder='E-mail' name='email')
+            div.form-group
+              label(for='phone')
+              input#phone.form-control(type='text', placeholder='Phone number (+240 ...)' name='phone')
+          div.form-group__column
+            div.form-group.form-group__text
+              label(for='words')
+              textarea(rows="12" id="words" name="words" placeholder="Your message...")
+            button.contacts__button(type='submit') Submit
+        .contacts__image
+          img(src="img/paint-bottom.png" width="428" height="301" alt="splash")
+    footer
+      .footer-image
+        img(src="img/heart.png" width="23" height="21" alt="designer heart") 

@@ -1,3 +1,155 @@
+$black: '000';
+
+$play: 'Playfair Display', serif;
+$nuni: 'Nunito Sans', sans-serif;
+
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
+
+body {
+  color: $black;
+  // width: 1575px;
+  font-family: $nuni;
+  color: #898f9f;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+h2 {
+  color: #333333;
+  font-family: "Playfair Display";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 121.82px;
+}
+
+.main-nav {
+  width: 1575px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  background-image: url(../img/paint-top.png);
+  background-repeat: no-repeat;
+  background-position: 0px -4px;
+  // не знаю что делать
+  width: 460px;
+  // width: 30%;
+  height: 730px;
+  text-align: right;
+  padding-right: 0px;
+  padding-top: 63px;
+  overflow: hidden;
+}
+
+.slogan {
+  width: 54%;
+  padding-top: 310px;
+  p.create {
+    color: #dbdbdb;
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: -0.7px;
+    line-height: 90px;
+  }
+  p.that {
+    padding-top: 20px;
+    color: #dbdbdb;
+    font-weight: 300;
+    letter-spacing: -1.23px;
+    line-height: 100px;
+    font-size: 70px;
+    span {
+      color: #333333;
+    }
+  }
+}
+
+.designs {
+  color: #d22425;
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 79.23px;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+
+.menu {
+  width: 10%;
+  button {
+  width: 30px;
+  height: 25px;
+  border-color: transparent;
+  cursor: pointer;
+}
+  padding-top: 70px;
+  margin-right: 100px;
+}
+
+.arrow {
+  margin: 180px auto 0px;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 350px;
+  width: 1160px;
+  }
+
+footer {
+  margin: 330px auto 0px;
+}
+
+.footer-image {
+  text-align: center;
+  position: relative;
+  border-top: 2px solid #f3f3f3;
+  width: 1000px;
+  margin: 0 auto;
+  img {
+    margin-top: 80px;
+  }
+}
+
+// .footer-image:before {
+//   content: "";
+//   position: absolute;
+//   top: -80px;
+//   left: 1020px;
+//   width: 1172px;
+//   height: 2px;
+//   background-color: #f3f3f3; 
+// }
+
+.arrow {
+  animation-name: animationTopBottom;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  /*animation-fill-mode: both:*/
+  animation-direction: alternate-reverse;
+  // animation-direction: alternate;
+}
+
+@keyframes animationTopBottom {
+  from{
+  transform: translateY(-90%);
+  }
+
+  to {
+  transform: translateY(0%);
+  }
+}
+
+@import "components/adaptive.scss";
+@import "components/presentation.scss";
+@import "components/innovative-ideas.scss";
+@import "components/portfolio.scss";
+@import "components/contacts.scss";
+
