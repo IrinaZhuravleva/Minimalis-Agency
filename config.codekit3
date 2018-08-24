@@ -150,9 +150,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/build\/css\/components\/adaptive.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -163,9 +163,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/build\/css\/components\/contacts.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -176,9 +176,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/build\/css\/components\/innovative-ideas.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -189,9 +189,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/build\/css\/components\/portfolio.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -202,9 +202,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/build\/css\/components\/presentation.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -217,7 +217,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/build\/css\/style.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -227,13 +227,13 @@
 		"ft": 512,
 		"oA": 0,
 		"oAP": "\/build\/index.html",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0
 		},
 	"\/source\/minimalist_agency.psd": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/build\/minimalist_agency.psd",
 		"oF": 1
 		}
@@ -248,7 +248,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-angryBaby",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 554017142
+	"lastBuiltDate": 556810556
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

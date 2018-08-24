@@ -1,4 +1,7 @@
-// contacts.scss
+$black: '000';
+
+$play: 'Playfair Display', serif;
+$nuni: 'Nunito Sans', sans-serif;
 
 .contacts {
   margin-top: 330px;
@@ -12,7 +15,6 @@
     left: -217px;
   }
   p {
-    /* Style for "Selection" */
     width: 300px;
     color: #898f9f;
     font-family: $nuni;
