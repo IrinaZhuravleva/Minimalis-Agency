@@ -182,6 +182,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/css\/components\/media.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/build\/css\/components\/media.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/css\/components\/portfolio.scss": {
 		"aP": 0,
 		"bl": 0,

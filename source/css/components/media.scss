@@ -1,0 +1,33 @@
+@media (max-width: 767px) { 
+.container {
+    width: 290px;
+    flex-direction: column;
+}
+.footer__social {
+    
+    text-align: center;
+    }
+}
+
+@media (min-width: 768px) { 
+    .container {
+        width: 710px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .container {
+        width: 1130px;
+    }
+
+    .card {
+      width: 555px;
+      height: 630px;
+    & {
+      img {
+      /* Style for "lighthouse" */
+width: 555px;
+height: 437px;
+}
+    }
+}
