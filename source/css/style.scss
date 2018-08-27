@@ -80,14 +80,19 @@ h2 {
   letter-spacing: -2px;
 }
 
+.designs span {
+  color: #000;
+}
+
 .menu {
   width: 10%;
   button {
-  width: 30px;
-  height: 25px;
-  border-color: transparent;
-  cursor: pointer;
-}
+    width: 30px;
+    height: 25px;
+    border-color: transparent;
+    cursor: pointer;
+    outline: none;
+  }
   padding-top: 70px;
   margin-right: 100px;
 }

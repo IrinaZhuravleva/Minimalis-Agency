@@ -45,15 +45,13 @@
   z-index: -1; }
 
 .innovative-ideas__button {
-  color: #d22425;
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 17px;
-  font-weight: 700;
-  width: 146px;
-  height: 50px;
-  border: 1px solid #e4e4e4;
-  padding: 10px 30px;
   margin-top: 60px; }
   .innovative-ideas__button a {
+    color: #d22425;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    border: 1px solid #e4e4e4;
+    padding: 10px 30px;
     text-decoration: none;
     color: #d22425; }

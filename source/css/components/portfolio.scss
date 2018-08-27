@@ -5,6 +5,8 @@ $nuni: 'Nunito Sans', sans-serif;
 
 .portfolio {
   margin-top: 350px;
+  width: 1575px;
+  margin: 0 auto;
 }
 
 .portfolio h2 {
@@ -34,16 +36,19 @@ $nuni: 'Nunito Sans', sans-serif;
     width: 200px;
     line-height: 40px;
   }
+  p {
+    padding-right: 5px;
+  }
 }
 
 .portfolio__button {
   color: #d22425;
- font-family: $nuni;
- font-size: 17px;
- font-weight: 700;
- text-transform: uppercase;
- margin-top: 45px;
- margin-left: 230px;
+  font-family: $nuni;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 45px;
+  margin-left: 230px;
  a {
   text-decoration: none;
   color: #d22425;
@@ -51,7 +56,6 @@ $nuni: 'Nunito Sans', sans-serif;
 }
 
 .first-card {
-  /* Style for "Rectangle" */
   width: 377px;
   height: 262px;
   border: 1px solid #ececec;

@@ -12,13 +12,25 @@ html
         .slogan
           p.create 
             | we create
-          .designs DESIGNS |
+          .designs DESIGNS 
+            span |
           p.that
             | that make 
             span you 
             | proud
         .menu
-          button
+
+          //- <nav class="main-nav">
+          //- <div class="main-nav__wrapper">
+          //-   <ul class="main-nav__items">
+          //-     <li class="main-nav__item"><a href="#">Our story</a></li>
+          //-     <li class="main-nav__item"><a href="#">Menu</a></li>
+          //-     <li class="main-nav__item"><a href="#">Reservations</a></li>
+          //-     <li class="main-nav__item"><a href="#">News</a></li>
+          //-     <li class="main-nav__item"><a href="#">Reviews</a></li>
+          //-   </ul>
+
+          button.main-nav__toggle.hidden__toggle.navigation-block__button
             img(src="img/burger-menu.png" width="90%" alt="Minimalist Agency")
       .arrow
         img(src="img/arrow-title.png" width="50" height="50" alt="Arrow")
@@ -87,7 +99,7 @@ html
               input#email.form-control(type='email', placeholder='E-mail' name='email')
             div.form-group
               label(for='phone')
-              input#phone.form-control(type='text', placeholder='Phone number (+240 ...)' name='phone')
+              input#phone.form-control(type='text', placeholder='Phone number (+240..)' name='phone')
           div.form-group__column
             div.form-group.form-group__text
               label(for='words')

@@ -33,6 +33,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/4-layers.png": {
+		"ft": 32768,
+		"iS": 52557,
+		"oA": 2,
+		"oAP": "\/build\/img\/4-layers.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/armchair.png": {
 		"ft": 32768,
 		"iS": 29082,
@@ -142,6 +153,26 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/js\/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/js\/main-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/menu.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/build\/menu-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/source\/css\/components\/adaptive.scss": {
 		"aP": 0,

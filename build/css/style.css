@@ -62,6 +62,9 @@ h2 {
   text-transform: uppercase;
   letter-spacing: -2px; }
 
+.designs span {
+  color: #000; }
+
 .menu {
   width: 10%;
   padding-top: 70px;
@@ -70,7 +73,8 @@ h2 {
     width: 30px;
     height: 25px;
     border-color: transparent;
-    cursor: pointer; }
+    cursor: pointer;
+    outline: none; }
 
 .arrow {
   margin: 180px auto 0px;
@@ -210,21 +214,21 @@ footer {
   z-index: -1; }
 
 .innovative-ideas__button {
-  color: #d22425;
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 17px;
-  font-weight: 700;
-  width: 146px;
-  height: 50px;
-  border: 1px solid #e4e4e4;
-  padding: 10px 30px;
   margin-top: 60px; }
   .innovative-ideas__button a {
+    color: #d22425;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    border: 1px solid #e4e4e4;
+    padding: 10px 30px;
     text-decoration: none;
     color: #d22425; }
 
 .portfolio {
-  margin-top: 350px; }
+  margin-top: 350px;
+  width: 1575px;
+  margin: 0 auto; }
 
 .portfolio h2 {
   position: relative; }
@@ -250,6 +254,8 @@ footer {
     padding-bottom: 15px;
     width: 200px;
     line-height: 40px; }
+  .portfolio__card p {
+    padding-right: 5px; }
 
 .portfolio__button {
   color: #d22425;
@@ -264,7 +270,6 @@ footer {
     color: #d22425; }
 
 .first-card {
-  /* Style for "Rectangle" */
   width: 377px;
   height: 262px;
   border: 1px solid #ececec;
@@ -293,11 +298,16 @@ footer {
   .contacts__image {
     position: absolute;
     top: 430px;
-    left: -452px;
+    left: -400px;
     z-index: -1; }
   .contacts__wrapper {
     display: flex;
     justify-content: space-between; }
+
+@media (min-width: 1200px) {
+  .contacts__image {
+    left: -300px;
+    top: 425px; } }
 
 .form-group__column {
   width: 410px;
@@ -326,11 +336,11 @@ footer {
   line-height: 22px;
   text-transform: uppercase;
   letter-spacing: 1.6px;
-  padding: 15px 30px;
+  padding: 16px 30px 15px;
   float: right;
   cursor: pointer;
-  width: 146px;
-  height: 50px; }
+  border: 0px;
+  outline: none; }
 
 input,
 textarea {

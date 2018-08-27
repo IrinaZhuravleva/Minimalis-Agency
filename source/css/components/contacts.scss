@@ -29,15 +29,21 @@ $nuni: 'Nunito Sans', sans-serif;
   }
   &__image {
   position: absolute;
-  // сделать футер и прижать к нему
   top: 430px;
-  left: -452px;
+  left: -400px;
   z-index: -1;
  }
  &__wrapper {
   display: flex;
   justify-content: space-between;
  }
+}
+
+@media (min-width: 1200px) {
+  .contacts__image {
+    left: -300px;
+    top: 425px;
+  }
 }
 
 .form-group__column {
@@ -72,11 +78,12 @@ $nuni: 'Nunito Sans', sans-serif;
   line-height: 22px;
   text-transform: uppercase;
   letter-spacing: 1.6px;
-  padding: 15px 30px;
+  padding: 16px 30px 15px;
   float: right;
   cursor: pointer;
-  width: 146px;
-  height: 50px;
+ 
+  border: 0px;
+  outline: none;
 }
 
 input, 

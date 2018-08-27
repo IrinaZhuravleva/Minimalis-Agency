@@ -1,0 +1,1 @@
+$(document).ready(function(){var c=$(".main-nav__toggle"),n=$(".blockmenu_active"),e=$(".blockmenu"),l=$(".blockmenu-close");c.click(function(){e.addClass("blockmenu_active"),c.css("display","none")}),l.click(function(){e.removeClass("blockmenu_active")}),l.click(function(){c.css("display","block")})});

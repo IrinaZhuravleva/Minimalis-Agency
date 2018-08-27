@@ -85,17 +85,14 @@ $nuni: 'Nunito Sans', sans-serif;
  }
 
 .innovative-ideas__button {
- color: #d22425;
- font-family: $nuni;
- font-size: 17px;
- font-weight: 700;
-   
-  width: 146px;
-  height: 50px;
-  border: 1px solid #e4e4e4;
-  padding: 10px 30px;
   margin-top: 60px;
   a {
+    color: #d22425;
+    font-family: $nuni;
+    font-size: 17px;
+    font-weight: 700;
+    border: 1px solid #e4e4e4;
+    padding: 10px 30px;
     text-decoration: none;
     color: #d22425;
    }

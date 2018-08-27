@@ -1,5 +1,7 @@
 .portfolio {
-  margin-top: 350px; }
+  margin-top: 350px;
+  width: 1575px;
+  margin: 0 auto; }
 
 .portfolio h2 {
   position: relative; }
@@ -25,6 +27,8 @@
     padding-bottom: 15px;
     width: 200px;
     line-height: 40px; }
+  .portfolio__card p {
+    padding-right: 5px; }
 
 .portfolio__button {
   color: #d22425;
@@ -39,7 +43,6 @@
     color: #d22425; }
 
 .first-card {
-  /* Style for "Rectangle" */
   width: 377px;
   height: 262px;
   border: 1px solid #ececec;
