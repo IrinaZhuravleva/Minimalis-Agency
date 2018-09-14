@@ -33,17 +33,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/4-layers.png": {
-		"ft": 32768,
-		"iS": 52557,
-		"oA": 2,
-		"oAP": "\/build\/img\/4-layers.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/armchair.png": {
 		"ft": 32768,
 		"iS": 29082,
@@ -71,6 +60,17 @@
 		"iS": 147980,
 		"oA": 2,
 		"oAP": "\/build\/img\/baloons.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/bg-middle.png": {
+		"ft": 32768,
+		"iS": 52557,
+		"oA": 2,
+		"oAP": "\/build\/img\/bg-middle.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
